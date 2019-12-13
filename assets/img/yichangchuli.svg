@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="65px" viewBox="0 0 78 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>盘点</title>
+    <desc>Created with Sketch.</desc>
+    <g id="GTP-V1.3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="00_PdaHome全量" transform="translate(-321.000000, -1078.000000)">
+            <g id="盘点" transform="translate(321.000000, 1078.000000)">
+                <g id="盒子">
+                    <polygon id="Rectangle" fill="#7F95FA" points="3.19744231e-14 5 36 11.7637743 36 65 3.19744231e-14 54.3946969"></polygon>
+                    <polygon id="Rectangle-Copy" fill="#4E67D4" points="36 11.9780537 78 6 78 54.8582653 36 65"></polygon>
+                    <polygon id="路径-2" fill="#A8B8FF" points="0 5.13506447 36.1111111 12 78 6 41.8888889 0"></polygon>
+                    <polygon id="路径-4" fill="#00C3B3" points="19.0115967 60.02771 12 57.9306641 12 7.42311096 19.0115967 8.74990845"></polygon>
+                    <polygon id="路径-5" fill="#00C3B3" points="19.0115967 8.74990845 57.4279175 2.47045898 50.3745728 1.33956909 12 7.42311096"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

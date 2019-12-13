@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="80px" viewBox="0 0 56 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>整箱出库</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="76.7842061%" id="linearGradient-1">
+            <stop stop-color="#00C3B3" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#00C3B3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="PDA-移库/提总/理货" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13_Home整托/整箱" transform="translate(-91.000000, -342.000000)">
+            <g id="整箱出库" transform="translate(79.000000, 342.000000)">
+                <rect id="矩形" fill-opacity="0" fill="#FDF0F0" x="0" y="0" width="80" height="80"></rect>
+                <path d="M20,0 C30.8810997,9.87927291 36.3216495,16.6836595 36.3216495,20.4131597 C34.0177984,20.4100431 31.2975235,20.4100431 28.1608247,20.4131597 L40.7392956,29 L52.5343644,20.4131597 L45.1947984,20.4131597 C50.9496705,7.61782749 56.2180711,0.813440923 61,0 C57.5524471,0.0950572726 43.8857804,0.0950572726 20,0 Z" id="路径-14" fill="url(#linearGradient-1)" transform="translate(40.500000, 14.500000) rotate(180.000000) translate(-40.500000, -14.500000) "></path>
+                <g id="箱" transform="translate(12.000000, 53.000000)">
+                    <g id="盒子">
+                        <polygon id="Rectangle" fill="#6383FF" points="1.2297855e-14 2 13.8461538 4.70550973 13.8461538 26 1.2297855e-14 21.7578788"></polygon>
+                        <polygon id="Rectangle-Copy" fill="#556DCC" points="13.8461538 4.79122148 30 2.4 30 21.9433061 13.8461538 26"></polygon>
+                        <polygon id="路径-2" fill="#5174FB" points="0 2.05402579 13.8888889 4.8 30 2.4 16.1111111 0"></polygon>
+                        <polygon id="路径-4" fill="#00C3B3" points="7.31215257 24.011084 4.61538462 23.1722656 4.61538462 2.96924438 7.31215257 3.49996338"></polygon>
+                        <polygon id="路径-5" fill="#00C3B3" points="7.31215257 3.49996338 22.0876606 0.988183594 19.3748357 0.535827637 4.61538462 2.96924438"></polygon>
+                    </g>
+                </g>
+                <g id="箱01" transform="translate(37.000000, 55.000000)">
+                    <g id="盒子">
+                        <polygon id="Rectangle" fill="#6383FF" points="1.27077835e-14 1.92307692 14.3076923 4.52452858 14.3076923 25 1.27077835e-14 20.9210373"></polygon>
+                        <polygon id="Rectangle-Copy" fill="#556DCC" points="14.3076923 4.60694374 31 2.30769231 31 21.0993328 14.3076923 25"></polygon>
+                        <polygon id="路径-2" fill="#5174FB" points="0 1.9750248 14.3518519 4.61538462 31 2.30769231 16.6481481 0"></polygon>
+                        <polygon id="路径-4" fill="#00C3B3" points="7.55589099 23.0875808 4.76923077 22.2810246 4.76923077 2.85504268 7.55589099 3.3653494"></polygon>
+                        <polygon id="路径-5" fill="#00C3B3" points="7.55589099 3.3653494 22.8239159 0.950176532 20.0206635 0.515218881 4.76923077 2.85504268"></polygon>
+                    </g>
+                </g>
+                <g id="箱02" transform="translate(24.000000, 33.000000)">
+                    <g id="盒子">
+                        <polygon id="Rectangle" fill="#6383FF" points="1.27077835e-14 2 14.3076923 4.70550973 14.3076923 26 1.27077835e-14 21.7578788"></polygon>
+                        <polygon id="Rectangle-Copy" fill="#556DCC" points="14.3076923 4.79122148 31 2.4 31 21.9433061 14.3076923 26"></polygon>
+                        <polygon id="路径-2" fill="#5174FB" points="0 2.05402579 14.3518519 4.8 31 2.4 16.6481481 0"></polygon>
+                        <polygon id="路径-4" fill="#00C3B3" points="7.55589099 24.011084 4.76923077 23.1722656 4.76923077 2.96924438 7.55589099 3.49996338"></polygon>
+                        <polygon id="路径-5" fill="#00C3B3" points="7.55589099 3.49996338 22.8239159 0.988183594 20.0206635 0.535827637 4.76923077 2.96924438"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

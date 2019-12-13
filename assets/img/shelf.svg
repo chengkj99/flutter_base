@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="115px" viewBox="0 0 102 115" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="13 100.538462 13 89.3333333 64 83 115 89.3333333 115 100.78184 115 100.538462 64 121 13 100.78184"></polygon>
+        <polygon id="path-3" points="13 93.5384615 13 87.6923077 64 76 115 87.6923077 115 93.7818402 115 93.5384615 64 114 13 93.7818402"></polygon>
+        <polygon id="path-5" points="13 87.5384615 64 70 115 87.7818402 115 87.5384615 64 108 13 87.7818402"></polygon>
+        <polygon id="path-7" points="3.8 11.4 38 -4.26325641e-14 72.2 11.4 72.2 57 38 72.2 3.8 57"></polygon>
+        <polygon id="path-9" points="3.8 11.4 38 -4.26325641e-14 72.2 11.4 72.2 57 38 72.2 3.8 57"></polygon>
+    </defs>
+    <g id="PDA-入库" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="12_Pda等待货架" transform="translate(-190.000000, -188.000000)">
+            <g id="cont" transform="translate(0.000000, 150.000000)">
+                <g id="Group" transform="translate(177.000000, 32.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Rectangle2Copy" fill="#FAFBFC" xlink:href="#path-1"></use>
+                    <polygon id="Rectangle" fill="#556DCC" fill-rule="nonzero" mask="url(#mask-2)" points="64 109.534453 83 102 83 115.767226 64 122"></polygon>
+                    <polygon id="RectangleCopy2" fill="#7B93F0" fill-rule="nonzero" mask="url(#mask-2)" points="45 102 64 109.467598 64 122 45 115.733799"></polygon>
+                    <polygon id="RectangleCopy3" fill="#7B93F0" fill-rule="nonzero" mask="url(#mask-2)" points="13 83 32 88.9617431 32 110 13 104.672117"></polygon>
+                    <polygon id="RectangleCopy" fill="#556DCC" fill-rule="nonzero" mask="url(#mask-2)" points="96 96.3893681 115 88 115 102.665705 96 109"></polygon>
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Rectangle2Copy" fill="#556DCC" xlink:href="#path-3"></use>
+                    <rect id="Rectangle" fill="#7B93F0" fill-rule="nonzero" mask="url(#mask-4)" x="13" y="83" width="51" height="44"></rect>
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <use id="Rectangle2Copy" fill="#ABBBF9" xlink:href="#path-5"></use>
+                    <g id="MapGoods" mask="url(#mask-6)">
+                        <g transform="translate(26.000000, 32.000000)">
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <use id="Rectangle-2-Copy" stroke="none" fill="#ABBBF9" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            <polygon id="Rectangle-2-Copy" stroke="none" fill="#556DCC" fill-rule="evenodd" mask="url(#mask-8)" points="38 22.8 72.2 11.4 72.2 57 38 72.2"></polygon>
+                            <polygon id="Rectangle-2-Copy" stroke="none" fill="#7B93F0" fill-rule="evenodd" mask="url(#mask-8)" transform="translate(20.900000, 41.800000) scale(-1, 1) translate(-20.900000, -41.800000) " points="3.8 22.8 38 11.4 38 57 3.8 72.2"></polygon>
+                        </g>
+                    </g>
+                    <g id="MapGoods" mask="url(#mask-6)">
+                        <g transform="translate(26.000000, 6.000000)">
+                            <mask id="mask-10" fill="white">
+                                <use xlink:href="#path-9"></use>
+                            </mask>
+                            <use id="Rectangle-2-Copy" stroke="none" fill="#ABBBF9" fill-rule="evenodd" xlink:href="#path-9"></use>
+                            <polygon id="Rectangle-2-Copy" stroke="none" fill="#556DCC" fill-rule="evenodd" mask="url(#mask-10)" points="38 22.8 72.2 11.4 72.2 57 38 72.2"></polygon>
+                            <polygon id="Rectangle-2-Copy" stroke="none" fill="#7B93F0" fill-rule="evenodd" mask="url(#mask-10)" transform="translate(20.900000, 41.800000) scale(-1, 1) translate(-20.900000, -41.800000) " points="3.8 22.8 38 11.4 38 57 3.8 72.2"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

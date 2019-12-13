@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="81px" viewBox="0 0 80 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="76.7842061%" id="linearGradient-1">
+            <stop stop-color="#00C3B3" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#00C3B3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="PDA-入库" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="07_PdaHome" transform="translate(-324.000000, -103.000000)">
+            <g id="Group" transform="translate(324.000000, 103.000000)">
+                <g id="出库" transform="translate(0.000000, 20.000000)">
+                    <g id="分组盒子">
+                        <polygon id="Rectangle-Copy-3" fill="#3952C2" points="40.5333333 12.5682292 67.2 16.8835938 67.2 53.0143229 40.5333333 45.6613128"></polygon>
+                        <polygon id="Rectangle-Copy-2" fill="#5165C5" points="9.6 16.3190104 40.5333333 12.5682292 40.5333333 45.484931 9.6 53.0143229"></polygon>
+                        <polygon id="Rectangle" fill="#768DF8" points="9.6 16.3190104 36.2666667 21.3333333 36.2666667 60.8 9.6 52.9377604"></polygon>
+                        <polygon id="Rectangle-Copy" fill="#4E67D4" points="36.2666667 21.3333333 67.2 16.8835938 67.2 53.2510417 36.2666667 60.8"></polygon>
+                        <polygon id="Path-2" fill="#A8B8FF" points="9.6 16.3190104 0 26.8502604 26.9526042 34.1609375 36.2666667 21.3333333"></polygon>
+                        <polygon id="Path-3" fill="#869CFF" points="36.2666667 21.3333333 45.1757812 34.1609375 80 26.5666667 67.2 16.8835937"></polygon>
+                    </g>
+                </g>
+                <path d="M12,-8.17124146e-14 C25.7539063,12.3822483 32.6308594,20.9105686 32.6308594,25.5849609 C29.71875,25.5810547 26.2802734,25.5810547 22.3154297,25.5849609 L38.2148438,36.3473307 L53.1240234,25.5849609 L43.8466797,25.5849609 C51.1209418,9.54785156 57.7802951,1.01953125 63.8247396,-8.17124146e-14 C59.4669705,0.119140625 42.1920573,0.119140625 12,-8.17124146e-14 Z" id="路径-14-copy" fill="url(#linearGradient-1)" transform="translate(37.912370, 18.173665) rotate(180.000000) translate(-37.912370, -18.173665) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

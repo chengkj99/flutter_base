@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="68px" viewBox="0 0 80 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>提总</title>
+    <desc>Created with Sketch.</desc>
+    <g id="PDA-移库/提总/理货" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="14_Home移库/理货/解绑" transform="translate(-79.000000, -348.000000)">
+            <g id="提总" transform="translate(79.000000, 342.000000)">
+                <rect id="矩形" fill-opacity="0" fill="#FDF0F0" x="0" y="0" width="80" height="80"></rect>
+                <g id="箱" transform="translate(0.000000, 35.000000)">
+                    <g id="盒子">
+                        <polygon id="Rectangle" fill="#6383FF" points="1.72169971e-14 2.92307692 19.3846154 6.87728345 19.3846154 38 1.72169971e-14 31.7999767"></polygon>
+                        <polygon id="Rectangle-Copy" fill="#556DCC" points="19.3846154 7.00255448 42 3.50769231 42 32.0709859 19.3846154 38"></polygon>
+                        <polygon id="路径-2" fill="#5174FB" points="0 3.00203769 19.4444444 7.01538462 42 3.50769231 22.5555556 0"></polygon>
+                        <polygon id="路径-4" fill="#00C3B3" points="10.2370136 35.0931227 6.46153846 33.8671575 6.46153846 4.33966487 10.2370136 5.11533109"></polygon>
+                        <polygon id="路径-5" fill="#00C3B3" points="10.2370136 5.11533109 30.9227248 1.44426833 27.1247699 0.7831327 6.46153846 4.33966487"></polygon>
+                    </g>
+                </g>
+                <g id="箱01" transform="translate(36.000000, 38.000000)">
+                    <g id="盒子">
+                        <polygon id="Rectangle" fill="#6383FF" points="1.80368541e-14 2.76923077 20.3076923 6.51532116 20.3076923 36 1.80368541e-14 30.1262937"></polygon>
+                        <polygon id="Rectangle-Copy" fill="#556DCC" points="20.3076923 6.63399898 44 3.32307692 44 30.3830392 20.3076923 36"></polygon>
+                        <polygon id="路径-2" fill="#5174FB" points="0 2.84403571 20.3703704 6.64615385 44 3.32307692 23.6296296 0"></polygon>
+                        <polygon id="路径-4" fill="#00C3B3" points="10.7244904 33.2461163 6.76923077 32.0846755 6.76923077 4.11126146 10.7244904 4.84610314"></polygon>
+                        <polygon id="路径-5" fill="#00C3B3" points="10.7244904 4.84610314 32.3952355 1.36825421 28.4164257 0.741915189 6.76923077 4.11126146"></polygon>
+                    </g>
+                </g>
+                <g id="箱02" transform="translate(17.000000, 6.000000)">
+                    <g id="盒子">
+                        <polygon id="Rectangle" fill="#6383FF" points="1.84467826e-14 2.92307692 20.7692308 6.87728345 20.7692308 38 1.84467826e-14 31.7999767"></polygon>
+                        <polygon id="Rectangle-Copy" fill="#556DCC" points="20.7692308 7.00255448 45 3.50769231 45 32.0709859 20.7692308 38"></polygon>
+                        <polygon id="路径-2" fill="#5174FB" points="0 3.00203769 20.8333333 7.01538462 45 3.50769231 24.1666667 0"></polygon>
+                        <polygon id="路径-4" fill="#00C3B3" points="10.9682289 35.0931227 6.92307692 33.8671575 6.92307692 4.33966487 10.9682289 5.11533109"></polygon>
+                        <polygon id="路径-5" fill="#00C3B3" points="10.9682289 5.11533109 33.1314909 1.44426833 29.0622535 0.7831327 6.92307692 4.33966487"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

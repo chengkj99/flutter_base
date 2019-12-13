@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:english_words/english_words.dart';
+//import 'package:english_words/english_words.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 void main() => runApp(MyApp());
 
@@ -7,59 +8,89 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    final wordPair = WordPair.random();
     return MaterialApp(
-        title: 'Welcome to Flutter',
-        home: RandomWords(),
+      title: 'Flutter Base',
+      theme: new ThemeData(
+        brightness: Brightness.light,
+        primaryColor: Color(0xff4e5983),
+      ),
+      home: Home(),
     );
   }
 }
 
-//class RandomWordsState extends State<RandomWords> {
-//
-//  @override
-//  Widget build(BuildContext context) {
-//    final wordPair = WordPair.random();
-//    return Text(wordPair.asCamelCase);
-//  }
-//}
+class Home extends StatefulWidget {
+  @override
+  HomeState createState() => HomeState();
+}
 
-class RandomWordsState extends State<RandomWords> {
+class HomeState extends State<Home> {
+  final features = {
+    'inbound': 'INBOUND',
+    'inventory': 'INVENTORY',
+    'stockOut': 'STOCK_OUT',
+    'changeWarehouse': 'STOCK_MOVE',
+    'tizong': 'GATHER_PICK',
+    'tally': 'TALLY',
+    'palletInbound': 'WHOLE_STOCK_IN',
+    'palletOutbound': 'WHOLE_STOCK_OUT',
+    'boxOutbound': 'WHOLE_BOX_OUT',
+  };
 
-  final _suggestions = <WordPair>[];
-  final _biggerFont = const TextStyle(fontSize: 18.0);
+  final featureImgMap = {
+    'inbound': 'ruku',
+    'inventory': 'pandian',
+    'stockOut': 'chuku',
+    'changeWarehouse': 'yiku',
+    'tizong': 'tizong',
+    'tally': 'lihuo',
+    'palletInbound': 'zhengtuoruku',
+    'palletOutbound': 'zhengtuochuku',
+    'boxOutbound': 'zhengxiangchuku',
+  };
+  final featureNameMap = {
+    'inbound': '入库',
+    'inventory': '盘点',
+    'stockOut': '出库',
+    'changeWarehouse': '移库',
+    'tizong': '提总',
+    'tally': '理货',
+    'palletInbound': '整托入库',
+    'palletOutbound': '整托出库',
+    'boxOutbound': '整箱出库',
+  };
 
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Startup Name Generator'),
-      ),
-      body: _buildSuggestions(),
-    );
+        appBar: AppBar(
+          title: Center(child: Text('HETU河图')),
+        ),
+        body: GridView.count(
+          crossAxisCount: 2,
+          children: _buildFeatures(),
+        ));
   }
 
-  Widget _buildSuggestions() {
-    return ListView.builder(itemBuilder: (context, i) {
-      if (i.isOdd) return Divider();
-      final index = i ~/ 2;
-      if (index >= _suggestions.length) {
-        _suggestions.addAll(generateWordPairs().take(10));
-      };
-      return _buildRow(_suggestions[index]);
-    });
+  List<Widget> _buildFeatures() {
+    return features.keys.map((k) {
+      return _buildSingleFeature(k);
+    }).toList();
   }
 
-  Widget _buildRow(WordPair pair) {
-    return ListTile(
-      title: Text(
-        pair.asCamelCase,
-        style: _biggerFont,
-      )
-    );
+  Widget _buildSingleFeature(String k) {
+    return Card(
+        child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+      children: <Widget>[
+        new SvgPicture.asset(
+          'assets/img/' + featureImgMap[k] + '.svg',
+          width: 60,
+          fit: BoxFit.fitWidth,
+          alignment: Alignment.center,
+        ),
+        Text(featureNameMap[k]),
+      ],
+    )));
   }
-}
-
-class RandomWords extends StatefulWidget {
-  @override
-  RandomWordsState createState() => RandomWordsState();
 }
