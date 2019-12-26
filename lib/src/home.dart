@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -42,11 +41,13 @@ class HomeState extends State<Home> {
     'palletOutbound': '整托出库',
     'boxOutbound': '整箱出库',
   };
+  var titleName = "HETU河图";
+  var i = 0;
 
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Center(child: Text('HETU河图')),
+          title: Center(child: Text(titleName)),
         ),
         body: GridView.count(
           crossAxisCount: 2,
@@ -59,21 +60,28 @@ class HomeState extends State<Home> {
       return _buildSingleFeature(k);
     }).toList();
   }
-
+  void _handleTap() {
+    this.setState(() {
+      titleName = "HETU河图" + (i++).toString();
+    });
+    Navigator.pushNamed(context, "/inbound");
+  }
   Widget _buildSingleFeature(String k) {
-    return Card(
-        child: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                new SvgPicture.asset(
-                  'assets/img/' + featureImgMap[k] + '.svg',
-                  width: 60,
-                  fit: BoxFit.fitWidth,
-                  alignment: Alignment.center,
-                ),
-                Text(featureNameMap[k]),
-              ],
-            )));
+    return GestureDetector(
+        onTap: _handleTap,
+        child: Card(
+            child: Center(
+                child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            new SvgPicture.asset(
+              'assets/img/' + featureImgMap[k] + '.svg',
+              width: 60,
+              fit: BoxFit.fitWidth,
+              alignment: Alignment.center,
+            ),
+            Text(featureNameMap[k]),
+          ],
+        ))));
   }
 }
