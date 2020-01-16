@@ -1,4 +1,4 @@
-import './src/inbound.dart';
+import 'ui/page/inbound/list.dart';
 
 var routes = {
   "/inbound": (context) => Inbound()
